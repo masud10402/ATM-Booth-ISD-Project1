@@ -1,0 +1,310 @@
+%commoncss{
+    padding: 100px 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+    font-size: 14px;
+}
+%csshsmall{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    font-family: 'Myriad pro', sans-serif;
+}
+%csshlarge{
+    font-size: 36px;
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+%csshafter{
+    background: #ff8b38;
+    width: 65px;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: #000000;
+    position: relative;
+}
+header .logo img{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+header .menu-area{
+    
+}
+header .menu-area ul{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+header .menu-area ul li{
+    list-style: none;
+}
+header .menu-area ul li a{
+    text-decoration: none;
+    color: #c9c9c9;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 0px 22px;
+} /* end header area */
+
+.hero-section{
+    background: url("../images/hero-img.jpg");
+    padding-bottom: 150px;
+    padding-top: 165px;
+}
+.hero-section .hero-content{
+    
+    color: white;
+}
+.hero-section .hero-content img{
+}
+.hero-section .hero-content h2{
+    font-size: 36px;
+    padding-top: 25px;
+}
+.hero-section .hero-content .line{
+    background: white;
+    width: 65px;
+    height: 2px;
+    margin: 35px 3px;
+}
+.hero-section .hero-content p{
+    font-size: 14px;
+    color: #d1d1d1;
+    margin-bottom: 45px;
+}
+.hero-section .hero-content a{
+    color: #d1d1d1;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 13px 30px;
+    border: 2px solid #d1d1d1;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.hero-section .hero-form{
+    margin-left: 35px;
+    width: 360px;
+    background: white;
+    border-radius: 5px;
+    position: relative;
+}
+.hero-section .hero-form h3{
+    font-size: 20px;
+    padding: 20px 0px;
+    background: #f5f5f5;
+    color: #333333;
+    padding-left: 35px;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 0;
+}
+.hero-section .hero-form input{
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    margin-left: 35px;
+    border-right: 1px solid #fbfbfb;
+    border-left: 1px solid #fbfbfb;
+    padding: 10px;
+    margin-top: 30px;
+    width: 293px;
+}
+.hero-section .hero-form input:last-child{
+    margin-bottom: 45px;
+}
+.hero-form-footer{
+    width: 100%;
+    background: #ff9b51;
+    height: 54px;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+}
+.hero-section .hero-form a {
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	text-decoration: none;
+	text-transform: capitalize;
+    padding: 16px 48px;
+}
+.social-media{
+    background: white;
+    padding: 15px 0px 0px 13px; 
+    box-shadow: 0px 15px 0px #b7b7b7;
+}
+.social-media .social-content{}
+.social-media .social-content h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333333;
+    margin: 0;
+}
+.social-media .social-content p{
+    font-size: 14px;
+    margin: 0;
+    color: #333333;
+}
+.social-media .social-icon{}
+.social-media .social-icon ul{
+    display: flex;
+    margin-right: 0;
+}
+.social-media .social-icon ul li{
+    list-style: none;
+}
+.social-media .social-icon ul li a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 48px;
+    padding: 0px 30px;
+}
+.social-media .social-icon ul li a i{}
+
+.tab-area{
+    padding: 75px 0px 115px 0px;
+    background: #f5f5f5;
+}
+.tab-area .tab-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.tab-area .tab-buttons a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 39px 28px;
+    background: #333333;
+    margin-bottom: 1px;
+    width: 63%;
+}
+.tab-area .tab-buttons a:first-child{
+    border-radius: 4px 4px 0px 0px;
+}
+.tab-area .tab-buttons a:last-child{
+    border-radius: 0px 0px 4px 4px;
+}
+.tab-area .tab-buttons a:hover{
+    background: #ff8b38;
+}
+.tab-area .tab-content{}
+.tab-area .tab-content h4{
+    font-size: 20px;
+    color: black;
+    font-family: 'Myriad pro', sans-serif;
+    padding-bottom: 40px;
+}
+.tab-area .tab-content p {
+	font-size: 14px;
+	color: #86878b;
+	font-family: 'Myriad pro', sans-serif;
+	margin-bottom: 45px;
+	line-height: 18px;
+}
+.tab-area .tab-content a{
+    background: #ff8b38;
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 12px 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.tab-area img {
+	margin-left: 124px;
+	margin-top: 27px;
+}
+.sub-list-section{
+    @extend %commoncss;
+    position: relative;
+}
+.sub-list-section .sub-content{
+    
+}
+.sub-list-section .sub-content h4{
+    @extend %csshsmall;
+}
+.sub-list-section .sub-content .after{
+    @extend %csshafter;
+}
+.sub-list-section .sub-content>p{
+    margin-bottom: 50px;
+}
+.sub-list-section .sub-content .title{
+    display: flex;
+    padding: 4px 0px;
+}
+.sub-list-section .sub-content .title i{
+    font-size: 43px;
+    color: #ff8b38;
+    margin-right: 30px;
+}
+.sub-list-section .sub-content .title .title-content{}
+.sub-list-section .sub-content .title .title-content h5{
+    font-style: 14px;
+    font-weight: 400;
+    color: #212121;
+    text-transform: capitalize;
+}
+.sub-list-section .sub-content .title .title-content p{}
+.sub-list-section img{
+    box-shadow: 3px 10px 30px 10px #c2c2c2;
+    position: absolute;
+    bottom: -84px;
+}
+.standard-picture{
+    @extend %commoncss;
+    background: #f5f5f5;
+}
+.standard-picture .sub-content{}
+.standard-picture .sub-content h4{
+    @extend %csshsmall;
+}
+.standard-picture .sub-content .after{
+    @extend %csshafter;
+}
+.standard-picture .sub-content p{}
+.standard-picture img{
+    box-shadow: 3px 10px 30px 10px #c2c2c2;
+    margin-left: 150px;
+}
+.process-section{
+    @extend %commoncss;
+    text-align: center;
+}
+.process-section .process-content{}
+.process-section .process-content h1{
+    @extend %csshlarge;
+}
+.process-section .process-content .after1{
+    display: flex;
+    justify-content: center;
+}
+.process-section .process-content .after{
+    @extend %csshafter;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+.process-section .process-content p{}
